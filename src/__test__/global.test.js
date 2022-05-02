@@ -48,13 +48,13 @@ test('test async / await', async () => {
     expect(string).toBe('aloh');
 });
 
-afterEach(() => {
-    console.log("DEspues de cada prueba");
-});
-beforeEach(() => {
-    console.log('Antes de cada prueba');
-});
+// afterEach(() => {
+//     console.log("DEspues de cada prueba");
+// });
+// beforeEach(() => {
+//     console.log('Antes de cada prueba');
+// });
 
-beforeAll(() => {
-    console.log("Antes de todas las pruebas");
-});
+// beforeAll(() => {
+//     console.log("Antes de todas las pruebas");
+// });
